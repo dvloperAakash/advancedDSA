@@ -3,7 +3,7 @@ using namespace std;
 
 class Solution{
     public:
-        int findSum(int n){                       // funfctional way of recursion
+        int findSum(int n){                       // functional way of recursion
             if(n==0)return 0;
             else return n + findSum(n-1);
         }
