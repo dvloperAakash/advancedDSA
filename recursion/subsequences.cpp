@@ -49,4 +49,4 @@ int main()
 }
 
 // TC : O(2^N) * N (extra N for printing).
-// SC : O(N) 
+// SC : O(N).
